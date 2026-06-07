@@ -1,0 +1,26 @@
+/* 南光AI计算器样式 */
+.nanguang-calculator-button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.nanguang-calculator-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.nanguang-calculator-button:active {
+    transform: translateY(0);
+}
+
+/* 节点内部样式优化 */
+.comfy-node[type="NanguangAICalculator"] .comfy-widgets {
+    min-height: 200px;
+}
