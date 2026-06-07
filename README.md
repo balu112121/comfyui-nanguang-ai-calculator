@@ -17,8 +17,7 @@
 ### 方法一：Git克隆（推荐）
 ```bash
 cd ComfyUI/custom_nodes/
-git clone https://github.com/yourusername/comfyui-nanguang-ai-calculator.git
-
+git clone https://github.com/balu112121/comfyui-nanguang-ai-calculator.git
 ### 南光AIGC绘画
 
 南光AIGC-AIGC全能方案设计解决专家 VX:nankodesign2001
